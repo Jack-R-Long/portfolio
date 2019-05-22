@@ -1,0 +1,104 @@
+/* CSS Reset settings here  */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 1px solid black;
+}
+#container {
+    width: 950px;
+}
+#header, #footer{
+    color: black;
+    background-color: #FAFAFA;
+}
+#header h1, #header h2, #photo_of_me, .info, .info_small, .info_small2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+#header h2{
+    float: right;
+    margin-right: 20px;
+}
+#wrapper{
+    background-color:#6F5964;
+    min-height: 700px;
+    padding-bottom: 20px;
+
+}
+#photo_of_me, .info{
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+#photo_of_me{
+    width: 400px;
+    height: 300px;
+    border: 5px solid gray;
+}
+.info{
+    background-color: #EFE8EE;
+    width: 475px;
+    height: 300px;
+    padding: 5px;
+}
+    .title{
+        padding: 6px;
+        background-color: grey;
+        height: 40px;
+        color: white;
+        font-family: serif;
+        font-size: 25px;
+    }
+    .text{
+        color: black;
+        font-family: serif;
+        font-size: 16x;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+.info_small{
+    width: 287px;
+    height: 360px;
+    background-color: #EFE8EE;
+}
+    .small_pics{
+        width: 260px;
+        height: 200x;
+    }
+    .small_text{
+        color: black;
+        font-family: serif;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .info_small2{
+        width: 287px;
+        height: 200px;
+        background-color: #EFE8EE;
+    }
+        .logo{
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .button{
+            margin-top: 5px;
+            display: block;
+            text-align: center;
+
+        }
+        .but{
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+#footer {
+    text-align: center;
+}
+    .social {
+        width: 10px;
+        height: 10px;
+    }
